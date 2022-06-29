@@ -1,0 +1,99 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: Poppins;
+}
+
+.container-fluid h3{
+    font-weight: bold;
+}
+
+.container h3{
+    font-weight: bold;
+    color: #0385a5;
+}
+.container p{
+    
+    color: #47B5FF;
+}
+
+#about-desc {
+    font-size: 18px;
+    text-align: justify;
+}
+
+#ex-details h4 {
+  font-weight: bold;
+}
+
+#abt-img {
+    border-radius: 15px;
+}
+
+#qual-sec a{
+    text-decoration: none;
+    color: black;
+}
+
+#qual-sec h4{
+    font-size: 18px;
+}
+#qual-sec h5{
+    font-size: 14px;
+}
+#qual-sec h6{
+    font-size: 12px;
+}
+
+#copyright {
+    background-color: #414045;
+    color: white;
+}
+
+
+/* Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) { 
+    #copyright p {
+        font-size: 10px;
+    }
+ }
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #abt-section {
+        margin: 0px 50px;
+    }
+    #qual-sec {
+        float: left;
+    }
+    #copyright p {
+        font-size: 14px;
+    }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #abt-section {
+        margin: 0px 150px;
+    }
+
+    #ex-details {
+        width: 250px;
+    }
+
+    #qual-sec {
+        float: left;
+    }
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    #abt-section {
+        margin: 0px 300px;
+    }
+
+    #qual-sec {
+        float: left;
+    }
+ }
